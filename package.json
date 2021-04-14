@@ -1,0 +1,53 @@
+{
+  "name": "hello-cypress",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "cy:open": "cypress open",
+    "cy:video": "cypress run"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cache-loader": "^4.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^5.2.0",
+    "cypress": "file:cypress-6.6.0.tgz",
+    "element-ui": "^2.15.1",
+    "eslint-loader": "^4.0.2",
+    "less": "^4.1.1",
+    "less-loader": "7.3.0",
+    "lodash": "^4.17.21",
+    "ncp-ui-kit": "^1.128.0",
+    "ncp-vue-framework": "^0.0.36-alpha",
+    "ts-loader": "^8.1.0",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-loader": "^15.9.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-router": "^3.2.0",
+    "vue-style-loader": "^4.1.3",
+    "vuex": "^3.4.0",
+    "webpack": "4.12.0",
+    "webpack-merge": "4.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "typescript": "~4.1.5",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
