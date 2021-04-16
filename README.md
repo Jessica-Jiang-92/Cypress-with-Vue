@@ -1,5 +1,5 @@
 # Hello-Cypress
-Cypress前端自动化工具最佳实践
+Cypress前端自动化工具最佳实践，给出了一些在自动化测试中常见的测试用例的例子。
 
 ## Specification
 
@@ -18,4 +18,4 @@ Requires Node.js 6+
 - yarn serve / npm run serve
 - visit http://localhost:8080/
 - npm run cypress / yarn cypress (启动Cypress服务之后，你可以在根目录下看到命名为`cypress`的文件夹，下面存放着很多测试用例的例子)
-- 如果你想使用录屏功能，请使用： `npm run cy:video`
+- 如果想使用录屏功能，请使用： `npm run cy:video`
