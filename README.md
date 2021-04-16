@@ -18,4 +18,4 @@ Requires Node.js 6+
 - yarn serve / npm run serve
 - visit http://localhost:8080/
 - npm run cypress / yarn cypress (启动Cypress服务之后，你可以在根目录下看到命名为`cypress`的文件夹，下面存放着很多测试用例的例子)
-- 如果想使用录屏功能，请使用： `npm run cy:video`
+- 如果想要使用录屏功能，请在控制台运行: `npm run cy:video`
