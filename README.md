@@ -1,24 +1,21 @@
-# hello-cypress
+# Hello-Cypress
+Cypress前端自动化工具最佳实践，给出了一些在自动化测试中常见的测试用例的例子。
 
-## Project setup
-```
-npm install
-```
+## Specification
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- [Element UI](https://element.eleme.io/#/zh-CN)
+- Vue(2.x) + Vuex + Vue Router
+- Typescript
+- less
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Build Setup
 
-### Lints and fixes files
-```
-npm run lint
-```
+Requires Node.js 6+
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Prepare to run in local environment
+
+- yarn / npm install
+- yarn serve / npm run serve
+- visit http://localhost:8080/
+- npm run cypress / yarn cypress (启动Cypress服务之后，你可以在根目录下看到命名为`cypress`的文件夹，下面存放着很多测试用例的例子)
+- 如果想要使用录屏功能，请在控制台运行: `npm run cy:video`
