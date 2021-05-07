@@ -1,6 +1,6 @@
 # Hello-Cypress
 
-Cypress前端自动化工具最佳实践，给出了一些在自动化测试中常见的测试用例的例子。
+[Cypress](https://www.cypress.io/)前端自动化工具最佳实践，给出了一些在自动化测试中常见的测试用例的例子。
 
 ## Specification
 
